@@ -5,7 +5,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
+import androidx.navigation.fragment.findNavController
 import com.example.guessword.R
+import com.example.guessword.databinding.FragmentTitleBinding
 
 class TitleFragment : Fragment() {
 
@@ -14,7 +17,12 @@ class TitleFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_title, container, false)
+        val binding = DataBindingUtil.inflate<FragmentTitleBinding>(inflater,R.layout.fragment_title,container,false)
+
+        binding.playGameBtn.setOnClickListener{
+            findNavController().navigate(TitleFragmentDirections.actionTitleFragmentToGameFragment())
+        }
+        return binding.root
     }
 
 }
