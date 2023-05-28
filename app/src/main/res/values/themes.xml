@@ -5,7 +5,11 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.GuessWord" parent="Theme.AppCompat.Light.DarkActionBar" />
+    <style name="Theme.GuessWord" parent="Theme.AppCompat.Light.DarkActionBar" >
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
 
     <style name="GoButton" parent="Widget.AppCompat.Button.Colored">
         <item name="colorButtonNormal">@color/ok_green_color</item>

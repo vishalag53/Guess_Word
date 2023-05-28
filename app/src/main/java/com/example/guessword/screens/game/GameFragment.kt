@@ -29,11 +29,11 @@ class GameFragment : Fragment() {
 
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_game, container, false)
 
-        viewModel = ViewModelProvider(this).get(GameViewModel::class.java)
+        viewModel = ViewModelProvider(this)[GameViewModel::class.java]
 
         binding.gameViewModel = viewModel
 
-        binding.setLifecycleOwner(this)
+        binding.lifecycleOwner = this
 
         viewModel.eventGameFinish.observe(viewLifecycleOwner, Observer { isFinished ->
             if (isFinished) {
