@@ -1,4 +1,4 @@
-package com.example.guessword
+package com.vishalag53.guessword
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.example.guessword.screens.score
+package com.vishalag53.guessword.screens.score
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -10,8 +10,8 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.example.guessword.R
-import com.example.guessword.databinding.FragmentScoreBinding
+import com.vishalag53.guessword.R
+import com.vishalag53.guessword.databinding.FragmentScoreBinding
 
 class ScoreFragment : Fragment() {
 
@@ -25,7 +25,8 @@ class ScoreFragment : Fragment() {
 
         // Inflate the layout for this fragment
 
-        val binding = DataBindingUtil.inflate<FragmentScoreBinding>(inflater,R.layout.fragment_score,container,false)
+        val binding = DataBindingUtil.inflate<FragmentScoreBinding>(inflater,
+            R.layout.fragment_score,container,false)
 
         val scoreFragmentArgs by navArgs<ScoreFragmentArgs>()
 

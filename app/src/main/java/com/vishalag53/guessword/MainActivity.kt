@@ -1,4 +1,4 @@
-package com.example.guessword
+package com.vishalag53.guessword
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

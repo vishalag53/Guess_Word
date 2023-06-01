@@ -1,4 +1,4 @@
-package com.example.guessword.screens.score
+package com.vishalag53.guessword.screens.score
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

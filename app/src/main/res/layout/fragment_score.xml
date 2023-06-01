@@ -7,7 +7,7 @@
 
         <variable
             name="scoreVewModel"
-            type="com.example.guessword.screens.score.ScoreViewModel" />
+            type="com.vishalag53.guessword.screens.score.ScoreViewModel" />
 
     </data>
 
@@ -15,7 +15,7 @@
         android:id="@+id/score_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".screens.score.ScoreFragment">
+        tools:context="com.vishalag53.guessword.screens.score.ScoreFragment">
 
 
         <TextView

@@ -7,14 +7,14 @@
 
         <variable
             name="gameViewModel"
-            type="com.example.guessword.screens.game.GameViewModel" />
+            type="com.vishalag53.guessword.screens.game.GameViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/game_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".screens.game.GameFragment">
+        tools:context="com.vishalag53.guessword.screens.game.GameFragment">
 
 
         <TextView

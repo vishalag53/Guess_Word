@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/title_destination"
-        android:name="com.example.guessword.screens.title.TitleFragment"
+        android:name="com.vishalag53.guessword.screens.title.TitleFragment"
         android:label="title_fragment"
         tools:layout="@layout/fragment_title">
         <action
@@ -21,7 +21,7 @@
     </fragment>
     <fragment
         android:id="@+id/game_destination"
-        android:name="com.example.guessword.screens.game.GameFragment"
+        android:name="com.vishalag53.guessword.screens.game.GameFragment"
         android:label="game_fragment">
         <action
             android:id="@+id/action_gameFragment_to_scoreFragment"
@@ -35,7 +35,7 @@
     </fragment>
     <fragment
         android:id="@+id/score_destination"
-        android:name="com.example.guessword.screens.score.ScoreFragment"
+        android:name="com.vishalag53.guessword.screens.score.ScoreFragment"
         android:label="score_fragment">
         <action
             android:id="@+id/action_restart"

@@ -1,4 +1,4 @@
-package com.example.guessword.screens.game
+package com.vishalag53.guessword.screens.game
 
 import android.os.CountDownTimer
 import android.text.format.DateUtils

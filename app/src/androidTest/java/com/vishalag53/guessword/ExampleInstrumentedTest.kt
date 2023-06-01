@@ -1,4 +1,4 @@
-package com.example.guessword
+package com.vishalag53.guessword
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

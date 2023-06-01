@@ -1,4 +1,4 @@
-package com.example.guessword.screens.game
+package com.vishalag53.guessword.screens.game
 
 import android.os.Build
 import android.os.Bundle
@@ -13,8 +13,8 @@ import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
-import com.example.guessword.R
-import com.example.guessword.databinding.FragmentGameBinding
+import com.vishalag53.guessword.R
+import com.vishalag53.guessword.databinding.FragmentGameBinding
 
 class GameFragment : Fragment() {
 
